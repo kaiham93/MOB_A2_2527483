@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "KMAPortfolio",
-    "slug": "kmaportfolio",
+    "slug": "snack-6ead5ce2-94b1-45b0-a8b6-47094a962968",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -30,6 +30,7 @@
       "eas": {
         "projectId": "ffae3eac-ea19-4f2e-9821-91f7375ac313"
       }
-    }
+    },
+    "owner": "kai93"
   }
 }
