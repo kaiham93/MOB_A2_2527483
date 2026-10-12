@@ -21,7 +21,12 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.khalil.kmaportfolio"
+      "package": "com.khalil.kmaportfolio",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "READ_MEDIA_IMAGES"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -31,6 +36,9 @@
         "projectId": "ffae3eac-ea19-4f2e-9821-91f7375ac313"
       }
     },
-    "owner": "kai93"
+    "owner": "kai93",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
   }
 }
