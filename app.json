@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "uplifting-orange-chip",
-    "slug": "snack-6ead5ce2-94b1-45b0-a8b6-47094a962968",
+    "name": "KMAPortfolio",
+    "slug": "kmaportfolio",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,7 +21,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.kai93.snack6ead5ce294b145b0a8b647094a962968"
+      "package": "com.khalil.kmaportfolio"
     },
     "web": {
       "favicon": "./assets/favicon.png"

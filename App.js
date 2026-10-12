@@ -18,7 +18,7 @@ export default function App() {
   const [shortBio, setShortBio] = useState("Software Engineering student at INES-Ruhengeri, passionate about building mobile applications using React Native and TypeScript.");
   const [primarySkill, setPrimarySkill] = useState("React Native & Expo");
   const [availability, setAvailability] = useState("Available for Internships");
-  const [profileImageUri, setProfileImageUri] = useState("https://via.placeholder.com/150");
+  const [profileImageUri, setProfileImageUri] = useState(null);
 
   // Validation Error States[cite: 2]
   const [headlineError, setHeadlineError] = useState('');
@@ -84,7 +84,7 @@ export default function App() {
   };
 
   const removeProfileImage = () => {
-    setProfileImageUri("https://via.placeholder.com/150");
+    setProfileImageUri(null);
   };
 
   const handleSaveProfile = async () => {
@@ -187,7 +187,7 @@ export default function App() {
               <Text style={styles.mandatoryText}>My name is {studentName}.</Text>
               
               <View style={styles.imageContainer}>
-                <Image source={{ uri: profileImageUri }} style={styles.profileImage} />
+                <Image source={profileImageUri ? { uri: profileImageUri } : require('./assets/icon.png')} style={styles.profileImage} />
               </View>
 
               <Text style={styles.headline}>{headline}</Text>
@@ -196,7 +196,7 @@ export default function App() {
                 <Text style={styles.sectionTitle}>About Me</Text>
                 <Text style={styles.cardText}>{shortBio}</Text>
                 <Text style={styles.statusText}>Status: {availability}</Text>
-                <Text style={styles.statusText}>Primary Skill: {primarySkill}</Text>
+                <Text style={styles.skillText}>Primary Skill: {primarySkill}</Text>
               </View>
 
               <View style={styles.codeContainer}>
@@ -258,7 +258,7 @@ export default function App() {
               <View style={styles.card}>
                 <Text style={styles.sectionTitle}>📷 Profile Image</Text>
                 <View style={styles.imagePreviewContainer}>
-                  <Image source={{ uri: profileImageUri }} style={styles.previewImage} />
+                  <Image source={profileImageUri ? { uri: profileImageUri } : require('./assets/icon.png')} style={styles.previewImage} />
                 </View>
                 <View style={styles.mediaButtonsRow}>
                   <TouchableOpacity style={styles.mediaButton} onPress={pickImageFromGallery}>
@@ -486,6 +486,11 @@ const styles = StyleSheet.create({
     color: '#28a745',
     fontWeight: 'bold',
     marginTop: 6,
+  },
+  skillText: {
+    fontSize: 13,
+    color: '#555',
+    marginTop: 4,
   },
   techText: {
     fontSize: 14,
