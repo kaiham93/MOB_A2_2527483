@@ -1,0 +1,34 @@
+Starting project at C:\CProject\uplifting-orange-chip
+Starting Metro Bundler
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+ ERROR  Project is incompatible with this version of Expo Go
+
+• The installed version of Expo Go is for SDK 57.0.0.
+• The project you opened uses SDK 54.
+
+How to fix this error:
+
+Either upgrade this project to SDK 57.0.0, or launch it in an iOS simulator. It is not possible to install an older version of Expo Go for iOS devices, only the latest version is supported.
+
+[Learn how to upgrade to SDK 57.](https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/)
+
+[https://expo.dev/go?sdkVersion=54&platform=ios&device=false](Learn how to install Expo Go for SDK 54 in an iOS Simulator.)
+Error: ENOENT: no such file or directory, scandir 'C:\CProject\uplifting-orange-chip\assets\images'
+    at Object.readdir (node:internal/fs/promises:1661:18)
+    at getAbsoluteAssetRecord (C:\CProject\uplifting-orange-chip\node_modules\metro\src\Assets.js:114:17)
+    at getAsset (C:\CProject\uplifting-orange-chip\node_modules\metro\src\Assets.js:224:18)
+    at Server._processSingleAssetRequest (C:\CProject\uplifting-orange-chip\node_modules\metro\src\Server.js:436:20)
+    at Server._processRequest (C:\CProject\uplifting-orange-chip\node_modules\metro\src\Server.js:535:7)
+ ERROR  Project is incompatible with this version of Expo Go
+
+• The installed version of Expo Go is for SDK 57.0.0.
+• The project you opened uses SDK 54.
+
+How to fix this error:
+
+Either upgrade this project to SDK 57.0.0, or launch it in an iOS simulator. It is not possible to install an older version of Expo Go for iOS devices, only the latest version is supported.
+
+[Learn how to upgrade to SDK 57.](https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/)
+
+[https://expo.dev/go?sdkVersion=54&platform=ios&device=false](Learn how to install Expo Go for SDK 54 in an iOS Simulator.)

@@ -39,6 +39,9 @@
     "owner": "kai93",
     "assetBundlePatterns": [
       "**/*"
+    ],
+    "plugins": [
+      "expo-status-bar"
     ]
   }
 }

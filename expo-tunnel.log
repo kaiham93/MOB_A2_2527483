@@ -1,0 +1,11 @@
+Starting project at C:\CProject\uplifting-orange-chip
+Starting Metro Bundler
+Tunnel connected.
+Tunnel ready.
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+Error: Asset not found: C:\CProject\uplifting-orange-chip\assets\images\icon.png for platform: (unspecified)
+    at getAbsoluteAssetRecord (C:\CProject\uplifting-orange-chip\node_modules\metro\src\Assets.js:129:11)
+    at getAsset (C:\CProject\uplifting-orange-chip\node_modules\metro\src\Assets.js:224:18)
+    at Server._processSingleAssetRequest (C:\CProject\uplifting-orange-chip\node_modules\metro\src\Server.js:436:20)
+    at Server._processRequest (C:\CProject\uplifting-orange-chip\node_modules\metro\src\Server.js:535:7)
