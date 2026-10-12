@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, Image, ScrollView, SafeAreaView, TouchableOpacity, TextInput, Alert } from 'react-native';
+import { StyleSheet, Text, View, Image, ScrollView, SafeAreaView, TouchableOpacity, TextInput, Alert, ErrorUtils } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as ImagePicker from 'expo-image-picker';
+
+ErrorUtils.setGlobalHandler((error, isFatal) => {
+  console.error('Global error:', error, 'fatal:', isFatal);
+  Alert.alert('App Error', error?.message || 'An unexpected error occurred. Please restart the app.');
+});
 
 export default function App() {
   const [currentTab, setCurrentTab] = useState('Home');

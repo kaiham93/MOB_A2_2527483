@@ -41,7 +41,7 @@
       "**/*"
     ],
     "plugins": [
-      "expo-status-bar"
+      "expo-image-picker"
     ]
   }
 }
