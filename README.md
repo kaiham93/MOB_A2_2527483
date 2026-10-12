@@ -51,6 +51,11 @@ My name is KHALIL ABDEEN HAMID MUSA.
    ```
 3. When the build finishes, download the APK from the provided build link and install it on any Android device.
 
+### Released APK (v1.0.0)
+- **Direct APK download:** https://expo.dev/artifacts/eas/2U_8OJEZ3PQGsuc9h6vbMlbLvuPUvhp9i4KtgodZaCA.apk
+- **Build page:** https://expo.dev/accounts/kai93/projects/snack-6ead5ce2-94b1-45b0-a8b6-47094a962968/builds/4ee130c4-03d6-4a95-b599-509892a47646
+- **Package name:** com.khalil.kmaportfolio
+
 ## Offline (Airplane Mode) Testing
 1. Install the standalone APK on a physical Android device.
 2. Enable Airplane Mode.
